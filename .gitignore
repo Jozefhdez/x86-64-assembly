@@ -1,6 +1,7 @@
 # Ignore Markdown files in exercise folders
 hello-world/*.md
 lasagna/*.md
+color-palette/*.md
 
 *.o
 *_test.c
