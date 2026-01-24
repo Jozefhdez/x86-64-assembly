@@ -1,0 +1,13 @@
+# Ignore Markdown files in exercise folders
+hello-world/*.md
+lasagna/*.md
+
+*.o
+
+*_test.c
+*_test.o
+tests/
+vendor/
+.exercism/
+
+*.json
