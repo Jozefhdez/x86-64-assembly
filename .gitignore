@@ -3,11 +3,10 @@ hello-world/*.md
 lasagna/*.md
 
 *.o
-
 *_test.c
 *_test.o
 tests/
+tests
 vendor/
 .exercism/
-
 *.json
