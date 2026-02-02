@@ -2,6 +2,7 @@
 hello-world/*.md
 lasagna/*.md
 color-palette/*.md
+inventory-management/*.md
 
 *.o
 *_test.c
