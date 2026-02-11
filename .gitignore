@@ -4,6 +4,7 @@ lasagna/*.md
 color-palette/*.md
 inventory-management/*.md
 black-jack/*.md
+secrets/*.md
 
 *.o
 *_test.c
