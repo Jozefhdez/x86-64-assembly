@@ -6,6 +6,7 @@ inventory-management/*.md
 black-jack/*.md
 secrets/*.md
 bird-watcher/*.md
+freelancer_rates/*.md
 
 *.o
 *_test.c
