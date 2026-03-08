@@ -7,6 +7,7 @@ black-jack/*.md
 secrets/*.md
 bird-watcher/*.md
 freelancer-rates/*.md
+mixed-juices/*.md
 
 *.o
 *_test.c
