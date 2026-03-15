@@ -10,7 +10,6 @@ freelancer-rates/*.md
 mixed-juices/*.md
 
 *.o
-*_test.c
 *_test.o
 tests/
 tests
