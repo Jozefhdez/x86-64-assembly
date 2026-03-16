@@ -9,6 +9,7 @@ bird-watcher/*.md
 freelancer-rates/*.md
 mixed-juices/*.md
 poetry-club-door-policy/*.md
+lost-and-found/*.md
 
 *.o
 *_test.o
