@@ -11,6 +11,7 @@ mixed-juices/*.md
 poetry-club-door-policy/*.md
 lost-and-found/*.md
 currency-exchange/*.md
+need-for-speed/*.md
 
 *.o
 *_test.o
