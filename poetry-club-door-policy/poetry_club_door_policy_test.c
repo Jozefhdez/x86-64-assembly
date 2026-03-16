@@ -117,7 +117,6 @@ void test_front_door_response_e2(void) {
 }
 
 void test_front_door_password_summer(void) {
-    TEST_IGNORE();
     char letters[] = "SUMMER";
     front_door_password(letters);
     TEST_ASSERT_EQUAL_STRING_MESSAGE("Summer", letters,
@@ -125,7 +124,6 @@ void test_front_door_password_summer(void) {
 }
 
 void test_front_door_password_sophia(void) {
-    TEST_IGNORE();
     char letters[] = "sophia";
     front_door_password(letters);
     TEST_ASSERT_EQUAL_STRING_MESSAGE("Sophia", letters,
@@ -133,7 +131,6 @@ void test_front_door_password_sophia(void) {
 }
 
 void test_front_door_password_code(void) {
-    TEST_IGNORE();
     char letters[] = "Code";
     front_door_password(letters);
     TEST_ASSERT_EQUAL_STRING_MESSAGE("Code", letters,
@@ -141,72 +138,61 @@ void test_front_door_password_code(void) {
 }
 
 void test_back_door_response_w1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("Compilers intensily bestow");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
         "w", &actual, 1, "Passed line: Compilers intensily bestow");
 }
 
 void test_back_door_response_o1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("On commencing without ego");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
         "o", &actual, 1, "Passed line: On commencing without ego");
 }
 
 void test_back_door_response_r1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("Different processes ajar");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
         "r", &actual, 1, "Passed line: Different processes ajar");
 }
 
 void test_back_door_response_k1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("Exit with zero quick");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE("k", &actual, 1,
                                          "Passed line: Exit with zero quick");
 }
 
 void test_back_door_response_h1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("Stands so HIGH   ");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE("H", &actual, 1,
                                          "Passed line: Stands so HIGH   ");
 }
 
 void test_back_door_response_o2(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("	Huge ... hooves ... too!");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
         "o", &actual, 1, "Passed line: 	Huge ... hooves ... too!");
 }
 
 void test_back_door_response_r2(void) {
-    TEST_IGNORE();
     const char actual =
         back_door_response("Impatiently waits for... 	 	");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
-        "r", &actual, 1,
-        "Passed line: Impatiently waits for... 	 	");
+        "r", &actual, 1, "Passed line: Impatiently waits for... 	 	");
 }
 
 void test_back_door_response_s1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("    Reins and harness    ");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(
         "s", &actual, 1, "Passed line:     Reins and harness    ");
 }
 
 void test_back_door_response_e1(void) {
-    TEST_IGNORE();
     const char actual = back_door_response("Eager to LEAVE!!!");
     TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE("E", &actual, 1,
                                          "Passed line: Eager to LEAVE!!!");
 }
 
 void test_back_door_password_work(void) {
-    TEST_IGNORE();
     char buffer[BUFFER_SIZE];
     char letters[] = "work";
     back_door_password(buffer, letters);
@@ -215,7 +201,6 @@ void test_back_door_password_work(void) {
 }
 
 void test_back_door_password_horse(void) {
-    TEST_IGNORE();
     char buffer[BUFFER_SIZE];
     char letters[] = "horse";
     back_door_password(buffer, letters);
